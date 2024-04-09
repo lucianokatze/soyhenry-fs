@@ -3,4 +3,4 @@
 
 const nuevoString = null;
 
-module.exports = nuevoString;
+module.exports = "texto";
