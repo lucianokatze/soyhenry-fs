@@ -1,0 +1,37 @@
+/* Colores básicos */
+body {
+    background-color: #f5f5f5;
+    color: #333333;
+}
+
+/* Encabezados */
+h1 {
+    color: #333333;
+}
+
+h2 {
+    color: #666666;
+}
+
+h3 {
+    color: #999999;
+}
+
+/* Enlaces */
+a {
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Botones */
+.button {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}

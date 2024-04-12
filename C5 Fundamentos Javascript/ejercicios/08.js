@@ -7,6 +7,12 @@ function esNumeroEntero(numero) {
   // -1212 ---> true 
   // 121.212 ---> false 
   // Tu código:
+  
+  return typeof numero === 'number' && numero % 1 === 0;
+
 }
 
 module.exports = esNumeroEntero;
+
+// enlace a la documentación oficial de javascript para tipos de datos
+// https://developer.mozilla.org/es/docs/Web/JavaScript/Data_structures
