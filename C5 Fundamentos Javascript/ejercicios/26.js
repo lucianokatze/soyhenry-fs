@@ -4,6 +4,11 @@ function obtenerSaludo(nombre) {
   // Ejemplo: "Martin" ---> "Hola Martin!"
   // Retorna el nuevo string. 
   // Tu código:
+  return  "Hola " + nombre + "!";
+  // tambien se puede escribir como
+  // return `Hola ${nombre}!`; donde se usa
+  // el template string para concatenar el string
+  // dentro de una cadena.
 }
 
 module.exports = obtenerSaludo;
